@@ -10,6 +10,7 @@ h1
     color: #B28263;
     margin-top: -10px;
     padding-top: 30px;
+    text-wrap: normal;
     font-family: Cardinal
 }
 h4
