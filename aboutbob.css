@@ -1,12 +1,40 @@
-body {
-    background-image: url("images/pink-background.jpg");
+@font-face
+{
+    font-family: Cardinal;
+    src: URL("Cardinal.ttf");
+}    
+h1
+{
+    background-repeat: no-repeat;
+    background-color: #C1FDFF;
+    color: #B28263;
+    margin-top: -10px;
+    padding-top: 30px;
+    font-family: Cardinal
 }
-div{
-    display:inline-block;
+h4
+{
+    font-family: Helvetica;
+    font-size: 1.8em;
 }
-#frame {
-    background-color: #ff3399;
-    text-align:center;
-    width:340px;
-    padding-bottom:10px;
+li
+{
+    font-family: Helvetica;
 }
+}
+body
+{
+    display: block;
+}
+div
+{
+    background-color: #E4FEFF;
+    font-family: Copperplate;   
+}
+img
+{
+    background-color: #C1FDFF;
+    padding-right: 600px;
+    padding-top: 10px;
+}
+
